@@ -59,6 +59,16 @@ public class BasicArray {
             System.out.println();
         }
 
+        System.out.println("---------------------------------------------------------------------------------------");
+
+        int sample[] = new int[10];
+        int i;
+        for (i = 0; i < 10; i++){
+            sample[i] = i;
+            System.out.println("This is sample[" + i + "] : " + sample[i]);
+        }
+
+
 
     }
 }
